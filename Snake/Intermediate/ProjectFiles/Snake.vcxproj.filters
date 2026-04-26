@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Snake.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1FD5D25B-80E7-4911-A084-358E898DF112}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Snake.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SnakeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{31DD67DD-A5D8-4F58-B90E-56FC93F7E1AA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Snake">
+      <UniqueIdentifier>{3874ABB3-4FA5-4F22-A814-6C1A1764BAF6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Snake\Snake.Build.cs">
+      <Filter>Source\Snake</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Snake\Snake.cpp">
+      <Filter>Source\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Snake\Snake.h">
+      <Filter>Source\Snake</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Snake\SnakeGameModeBase.cpp">
+      <Filter>Source\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Snake\SnakeGameModeBase.h">
+      <Filter>Source\Snake</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

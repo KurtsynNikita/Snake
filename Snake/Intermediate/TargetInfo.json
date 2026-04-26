@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Snake",
+			"Path": "C:\\Users\\user\\Documents\\GitHub Unreal\\Snake\\Snake\\Source\\Snake.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SnakeEditor",
+			"Path": "C:\\Users\\user\\Documents\\GitHub Unreal\\Snake\\Snake\\Source\\SnakeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

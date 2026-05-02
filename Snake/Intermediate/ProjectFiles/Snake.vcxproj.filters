@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Snake.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1FD5D25B-80E7-4911-A084-358E898DF112}</UniqueIdentifier>
+      <UniqueIdentifier>{3E06412B-D133-4318-8738-1D5CD9A9832C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Snake.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\SnakeEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.clang-format.txt" />
     <Filter Include="Config">
-      <UniqueIdentifier>{31DD67DD-A5D8-4F58-B90E-56FC93F7E1AA}</UniqueIdentifier>
+      <UniqueIdentifier>{514F01A4-2EA0-4BED-A53B-AB124C946828}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +25,17 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Snake">
-      <UniqueIdentifier>{3874ABB3-4FA5-4F22-A814-6C1A1764BAF6}</UniqueIdentifier>
+      <UniqueIdentifier>{66A18E8E-A4F5-44CD-89FA-FEB128A09473}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Source\Snake\CppProperties.json">
+      <Filter>Source\Snake</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Snake\PlayerPawnBase.cpp">
+      <Filter>Source\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Snake\PlayerPawnBase.h">
+      <Filter>Source\Snake</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Snake\Snake.Build.cs">
       <Filter>Source\Snake</Filter>
     </None>
@@ -35,11 +45,95 @@
     <ClInclude Include="..\..\Source\Snake\Snake.h">
       <Filter>Source\Snake</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Snake\SnakeBase.cpp">
+      <Filter>Source\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Snake\SnakeBase.h">
+      <Filter>Source\Snake</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Snake\SnakeElementBase.cpp">
+      <Filter>Source\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Snake\SnakeElementBase.h">
+      <Filter>Source\Snake</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Snake\SnakeGameModeBase.cpp">
       <Filter>Source\Snake</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Snake\SnakeGameModeBase.h">
       <Filter>Source\Snake</Filter>
     </ClInclude>
+    <Filter Include="Source\Snake\.vs">
+      <UniqueIdentifier>{6981DD75-CE1E-4595-8439-C8528FCDE34B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Snake\.vs\CMakeWorkspaceSettings.json">
+      <Filter>Source\Snake\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\Snake\.vs\ProjectSettings.json">
+      <Filter>Source\Snake\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\Snake\.vs\slnx.sqlite">
+      <Filter>Source\Snake\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\Snake\.vs\VSWorkspaceState.json">
+      <Filter>Source\Snake\.vs</Filter>
+    </None>
+    <Filter Include="Source\Snake\.vs\Snake">
+      <UniqueIdentifier>{0DE9E491-5D50-4598-B717-C6054DFE425D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Snake\.vs\Snake\CopilotIndices">
+      <UniqueIdentifier>{B0141CE1-4DEF-45A4-BE59-A7210C18511F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Snake\.vs\Snake\CopilotIndices\18.5.39162.45114">
+      <UniqueIdentifier>{62BE5769-F513-4D63-9829-457B6B509770}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Snake\.vs\Snake\CopilotIndices\18.5.39162.45114\CodeChunks.db">
+      <Filter>Source\Snake\.vs\Snake\CopilotIndices\18.5.39162.45114</Filter>
+    </None>
+    <None Include="..\..\Source\Snake\.vs\Snake\CopilotIndices\18.5.39162.45114\SemanticSymbols.db">
+      <Filter>Source\Snake\.vs\Snake\CopilotIndices\18.5.39162.45114</Filter>
+    </None>
+    <Filter Include="Source\Snake\.vs\Snake.slnx">
+      <UniqueIdentifier>{34B9ACD7-52A2-46F6-B13C-00BC72E8836F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Snake\.vs\Snake.slnx\FileContentIndex">
+      <UniqueIdentifier>{5573859F-A485-4F3F-A52B-CB25B7B6D7AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Snake\.vs\Snake.slnx\FileContentIndex\13347ee3-3006-4ae2-ac81-81b48479ef72.vsidx">
+      <Filter>Source\Snake\.vs\Snake.slnx\FileContentIndex</Filter>
+    </None>
+    <None Include="..\..\Source\Snake\.vs\Snake.slnx\FileContentIndex\d3999347-a9f6-4f25-b4d6-0dec6f1af0b5.vsidx">
+      <Filter>Source\Snake\.vs\Snake.slnx\FileContentIndex</Filter>
+    </None>
+    <Filter Include="Source\Snake\.vs\Snake.slnx\v18">
+      <UniqueIdentifier>{2DE56F90-0AB3-45A2-8A9C-B30E2B8DBCA0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Snake\.vs\Snake.slnx\v18\.wsuo">
+      <Filter>Source\Snake\.vs\Snake.slnx\v18</Filter>
+    </None>
+    <None Include="..\..\Source\Snake\.vs\Snake.slnx\v18\Browse.VC.db">
+      <Filter>Source\Snake\.vs\Snake.slnx\v18</Filter>
+    </None>
+    <None Include="..\..\Source\Snake\.vs\Snake.slnx\v18\DocumentLayout.json">
+      <Filter>Source\Snake\.vs\Snake.slnx\v18</Filter>
+    </None>
+    <Filter Include="Source\Snake\.vs\Snake.slnx\v18\ipch">
+      <UniqueIdentifier>{9838A51A-DC3F-4118-AD75-ED27A25FC71D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Snake\.vs\Snake.slnx\v18\ipch\AutoPCH">
+      <UniqueIdentifier>{14B5C2C9-3ADB-4873-956C-806DFAD24467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Snake\.vs\Snake.slnx\v18\ipch\AutoPCH\183164ccfb0b7a0f">
+      <UniqueIdentifier>{77B131DC-C42B-4879-AFC4-CA3371110DF9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Snake\.vs\Snake.slnx\v18\ipch\AutoPCH\183164ccfb0b7a0f\SNAKE.ipch">
+      <Filter>Source\Snake\.vs\Snake.slnx\v18\ipch\AutoPCH\183164ccfb0b7a0f</Filter>
+    </None>
+    <Filter Include="Source\Snake\.vs\Snake.slnx\v18\ipch\AutoPCH\1cc754f01ada5475">
+      <UniqueIdentifier>{F10DAEEC-B3B5-4214-9248-2DED7828A425}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Snake\.vs\Snake.slnx\v18\ipch\AutoPCH\1cc754f01ada5475\PLAYERPAWNBASE.ipch">
+      <Filter>Source\Snake\.vs\Snake.slnx\v18\ipch\AutoPCH\1cc754f01ada5475</Filter>
+    </None>
   </ItemGroup>
 </Project>

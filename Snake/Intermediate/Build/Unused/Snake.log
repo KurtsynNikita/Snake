@@ -1,0 +1,13 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\GitHub Unreal\Snake).
+  Creating makefile for SnakeEditor (command line arguments changed)
+  Building SnakeEditor...
+  Using Visual Studio 2022 14.50.35729 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 16 processes...
+    [1/4] PlayerPawnBase.cpp
+    [2/4] UE4Editor-Snake.lib
+       Creating library C:\Users\user\Documents\GitHub Unreal\Snake\Snake\Intermediate\Build\Win64\UE4Editor\Development\Snake\UE4Editor-Snake.lib and object C:\Users\user\Documents\GitHub Unreal\Snake\Snake\Intermediate\Build\Win64\UE4Editor\Development\Snake\UE4Editor-Snake.exp
+    [3/4] UE4Editor-Snake.dll
+       Creating library C:\Users\user\Documents\GitHub Unreal\Snake\Snake\Intermediate\Build\Win64\UE4Editor\Development\Snake\UE4Editor-Snake.suppressed.lib and object C:\Users\user\Documents\GitHub Unreal\Snake\Snake\Intermediate\Build\Win64\UE4Editor\Development\Snake\UE4Editor-Snake.suppressed.exp
+    [4/4] SnakeEditor.target
+  Total time in Parallel executor: 2,00 seconds
+  Total execution time: 4,29 seconds
